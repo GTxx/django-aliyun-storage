@@ -30,7 +30,7 @@ class AliyunOSSFile(File):
             raise IOError("mode {} is unable to read file".format(self._mode))
         bucket = self._storage.bucket
         res = self._storage.oss.get_object(bucket, self.name)
-        if res not in (200,):
+        if res.status not in (200,):
             raise IOError("read {} from {} fail: {}".format(self.name, bucket, res.read()))
         self._file.write(res.read())
         self._file.seek(0)
