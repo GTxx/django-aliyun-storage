@@ -58,7 +58,7 @@ class AliyunStorage(Storage):
 
     file_class = AliyunOSSFile
     access_id_name = 'ALIYUN_OSS_ACCESS_KEY_ID'
-    access_key_name = 'ALIYUN_OSS_ACCESS_KEY_SECREE'
+    access_key_name = 'ALIYUN_OSS_ACCESS_KEY_SECRET'
     access_host_name = 'ALIYUN_OSS_ACCESS_HOST'
     bucket_name = 'ALIYUN_OSS_BUCKET_NAME'
     file_overwrite = aliyun_setting('ALIYUN_OSS_FILE_OVERWRITE', False)

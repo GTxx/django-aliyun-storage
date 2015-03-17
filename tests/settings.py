@@ -12,13 +12,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$rsq(237o43z8%2m7^++o-0oe0@ee*y1_hm2*7)gm0h&%2%pg0'
-
+SECRET_KEY = 'bla'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -39,6 +33,7 @@ INSTALLED_APPS = (
 
     # test app
     'oss_storage',
+    'test_oss_storage',
 )
 
 MIDDLEWARE_CLASSES = (

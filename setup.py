@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name="django-aliyun-oss-storage",
     version='0.1',
-    packages=find_packages(),
+    packages=['oss_storage', 'oss_storage.oss'],
     author="GTxx",
     author_email="xiongxiong1986@gmail.com",
     url="https://github.com/GTxx/",
