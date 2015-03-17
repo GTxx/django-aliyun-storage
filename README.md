@@ -1,7 +1,7 @@
 django aliyun oss storage
 ==========================
 
-https://travis-ci.org/GTxx/django-aliyun-storage.svg?branch=master
+[![Build Status](https://travis-ci.org/GTxx/django-aliyun-storage.svg?branch=master)](https://travis-ci.org/GTxx/django-aliyun-storage)
 
 ### 使用说明
 在**settings.py**中加入
