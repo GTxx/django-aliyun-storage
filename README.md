@@ -7,7 +7,7 @@ django aliyun oss storage
 在**settings.py**中加入
 ```python
 ALIYUN_OSS_ACCESS_KEY_ID = 'your_key_id'
-ALIYUN_OSS_ACCESS_KEY_SECRETE = 'your_access_key'
+ALIYUN_OSS_ACCESS_KEY_SECRET = 'your_access_key'
 ALIYUN_OSS_BUCKET_NAME = 'your_bucket_name'
 ALIYUN_OSS_ACCESS_HOST = 'your_host_address'
 # ALIYUN_OSS_FILE_OVERWRITE = True
